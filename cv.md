@@ -11,9 +11,8 @@ Quick study, soft-skilled, emotionally intelligent.
 ****
 
 ### Languages
-Russan: Native
-
-English: C1
+- Russan: Native
+- English: C1
 
 ### Skills
 - JavaScript 
@@ -31,7 +30,7 @@ But I started writing code and solving problems on CodeWars.
 
 ****
 
-# Code
+### Code
 ```
 function reverseWords(str) {
   let strArray = str.split(' ');
@@ -39,3 +38,6 @@ function reverseWords(str) {
   return newArray.join(' ');
 }
 ```
+
+### Projects
+First Project: [CV on GitHub](https://katbertw.github.io/rsschool-cv/cv)
