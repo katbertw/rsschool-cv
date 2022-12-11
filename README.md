@@ -1,3 +1,3 @@
-https://GITHUB-USERNAME.github.io/rsschool-cv/cv
+https://katbertw.github.io/rsschool-cv/cv
 
-https://GITHUB-USERNAME.github.io/rsschool-cv/
+https://katbertw.github.io/rsschool-cv/
