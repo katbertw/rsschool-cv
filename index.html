@@ -8,61 +8,103 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
     <title>Sergei Suglov | CV </title>
 </head>
 <body>
 <div id="main-container">
     <div id="introduction">
-        <img src="./assets/img/peeps-avatar.png" alt="Avatar Image" width="150">
+        <img src="./assets/img/peeps-avatar.png" alt="Avatar Image" width="500">
         <div id="name">
             Sergei Suglov
-        </div>
-        <div id="specialty">
-            Front-End Developer
+            <div id="specialty">
+                Front-End Developer
+            </div>
         </div>
     </div>
-    <div id="info">
-        Aspiring front-end developer with great desire to learn and constantly improve. 
-        Quick study, soft-skilled, emotionally intelligent.
+    <div class="content" id="info">
+        <h2>About me</h2>
+        <p>Aspiring front-end developer with great desire to learn and constantly improve. 
+        Quick study, soft-skilled, emotionally intelligent.</p>
     </div>
+    <hr class="divider">
     <div id="contacts">
-        <p>Email</p>
-        <p>katbertw@gmail.com</p>
-        <p>Phone</p>
-        <p>+7 (999) 000 00 00</p>
-        <p>Site</p>
-        <p>katbertw.github.io/rsschool-cv/</p>
-        <p>Area</p>
-        <p>Kazakhstan, Astana</p>
+        <div class="contacts-icons">
+            <div id="img-container"><img src="./assets/img/envelope.png" alt="envelope"></div>
+            <div>
+                <p>Email</p>
+                <p>katbertw@gmail.com</p>
+            </div>
+        </div>
+        <div class="contacts-icons">
+            <div id="img-container"><img src="./assets/img/phone.png" alt="phone-call"></div>
+            <div>
+                <p>Phone</p>
+                <p>+7 (999) 000 00 00</p>
+            </div>
+        </div>
+        <div class="contacts-icons">
+            <div id="img-container"><img src="./assets/img/globe.png" alt="globe"></div>
+            <div>
+                <p>Site</p>
+                <p><a href="https://katbertw.github.io/rsschool-cv/">katbertw.github.io/rsschool-cv/</a></p>
+            </div>
+        </div>
+        <div class="contacts-icons">
+            <div id="img-container"><img src="./assets/img/marker.png" alt="location"></div>
+            <div>
+                <p>Area</p>
+                <p>Kazakhstan, Astana</p>
+            </div>
+        </div>
     </div>
-    <div id="languages">
+    <hr class="divider">
+    <div class="content" id="languages">
+        <h2>Languages</h2>
         Russan: Native
         English: C1
     </div>
-    <div id="skills">
-        JavaScript 
-        HTML
-        CSS
+    <hr class="divider">
+    <div class="content" id="skills">
+        <h2>Skills</h2>
+        <p>JavaScript</p>
+        <div class="progressbar" id="progressbar-1">
+            <div></div>
+        </div>
+        <p>HTML</p>
+        <div class="progressbar" id="progressbar-2">
+            <div></div>
+        </div>
+        <p>CSS</p>
+        <div class="progressbar" id="progressbar-3">
+            <div></div>
+        </div>
     </div>
-    <div id="education">
+    <hr class="divider">
+    <div class="content" id="education">
+        <h2>Education</h2>
         Studied Computing machinery, complexes, systems and networks at Izhevsk State Technical University
         Finished Frontend Web Development Bootcamp Course (JavaScript, HTML, CSS) by Zach Gollwitzer in freeCodeCamp.org
         Busy with an online JavaScript/Front-end course right now at RS School
     </div>
-    <div id="experience">
+    <hr class="divider">
+    <div class="content" id="experience">
+        <h2>Work Experience</h2>
         Although I have a Master's degree in Computing Machinery, I actually never worked *professionally* in the field.
         But I started writing code and solving problems on CodeWars.
     </div>
-    <div id="code">
+    <hr class="divider">
+    <div class="content" id="code">
+        <h2>Code</h2>
         function reverseWords(str) {
             let strArray = str.split(' ');
             let newArray = strArray.map((element) => element.split('').reverse().join(''));
             return newArray.join(' ');
           }
     </div>
-    <div id="projects">
+    <hr class="divider">
+    <div class="content" id="projects">
+        <h2>Projects</h2>
         First Project: <a href="https://katbertw.github.io/rsschool-cv/cv">CV on GitHub</a>
     </div>
 
