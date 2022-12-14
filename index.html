@@ -14,7 +14,9 @@
 <body>
 <div id="main-container">
     <div id="introduction">
-        <img src="./assets/img/peeps-avatar.png" alt="Avatar Image" width="500">
+        <div id="main-image">
+            <img src="./assets/img/peeps-avatar.png" alt="Avatar Image" width="500">
+        </div>
         <div id="name">
             Sergei Suglov
             <div id="specialty">
@@ -50,7 +52,7 @@
                 <p><a href="https://katbertw.github.io/rsschool-cv/">katbertw.github.io/rsschool-cv/</a></p>
             </div>
         </div>
-        <div class="contacts-icons">
+        <div class="contacts-icons" id="last">
             <div id="img-container"><img src="./assets/img/marker.png" alt="location"></div>
             <div>
                 <p>Area</p>
@@ -61,23 +63,29 @@
     <hr class="divider">
     <div class="content" id="languages">
         <h2>Languages</h2>
-        Russan: Native
-        English: C1
+        <ul>
+            <li>Russan: Native</li>
+            <li>English: C1</li>
+        </ul>
     </div>
     <hr class="divider">
     <div class="content" id="skills">
         <h2>Skills</h2>
-        <p>JavaScript</p>
-        <div class="progressbar" id="progressbar-1">
-            <div></div>
-        </div>
-        <p>HTML</p>
-        <div class="progressbar" id="progressbar-2">
-            <div></div>
-        </div>
-        <p>CSS</p>
-        <div class="progressbar" id="progressbar-3">
-            <div></div>
+        <div id="skills-container">
+            <div>
+                <div class="progressbar" id="progressbar-1">
+                    <p>JavaScript</p>
+                    <div></div>
+                </div>
+                <div class="progressbar" id="progressbar-2">
+                    <p>HTML</p>
+                    <div></div>
+                </div>
+                <div class="progressbar" id="progressbar-3">
+                    <p>CSS</p>
+                    <div></div>
+                </div>
+            </div>
         </div>
     </div>
     <hr class="divider">

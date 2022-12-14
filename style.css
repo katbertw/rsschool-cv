@@ -16,45 +16,13 @@ a {
 
 .divider {
     margin-bottom: 30px;
-}
-
-.content {
-    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .content > h2 {
     text-transform: uppercase;
     font-size: 1.1rem;
     margin-bottom: 15px;
-}
-
-.progressbar {
-    background-color: grey;
-    border-radius: 10px;
-    height: 7px;
-    padding: 0px;
-    display: flex;
-}
-  
-#progressbar-1 > div {
-    background-color: black;
-    width: 20%;
-    height: 7px;
-    border-radius: 10px;
-}
-
-#progressbar-2 > div {
-    background-color: black;
-    width: 35%;
-    height: 7px;
-    border-radius: 10px;
-}
-
-#progressbar-3 > div {
-    background-color: black;
-    width: 30%;
-    height: 7px;
-    border-radius: 10px;
 }
 
 #main-container {
@@ -69,11 +37,20 @@ a {
     align-items: center;
 }
 
-#introduction img {
-    max-width: 50%;
-    margin-bottom: 30px;
+#main-image {
+    display: flex;
+    width: 240px;
+    height: 240px;
     border-radius: 50%;
-    border: 7px solid #F0CF00;
+    background-image: linear-gradient(360deg, rgba(255,107,16,1) 0%, rgba(255,235,0,1) 100%);
+    margin-bottom: 30px;
+}
+
+#main-image img {
+    max-width: 93%;
+    max-height: 93%;
+    border-radius: 50%;
+    margin: auto;
 }
 
 #name {
@@ -87,7 +64,7 @@ a {
     align-items: center;
     padding: 12px 25px;
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 #specialty {
@@ -112,6 +89,10 @@ a {
     margin-bottom: 15px;
 }
 
+#last {
+    margin-bottom: 0px;
+}
+
 .contacts-icons p {
     margin-left: 20px;
 }
@@ -134,3 +115,34 @@ a {
 #img-container img {
     max-width: 100%;
 }
+
+.progressbar {
+    background-color: grey;
+    border-radius: 10px;
+    height: 7px;
+    padding: 0px;
+    display: flex;
+    margin-bottom: 20px;
+}
+  
+#progressbar-1 > div {
+    background-color: black;
+    width: 20%;
+    height: 7px;
+    border-radius: 10px;
+}
+
+#progressbar-2 > div {
+    background-color: black;
+    width: 35%;
+    height: 7px;
+    border-radius: 10px;
+}
+
+#progressbar-3 > div {
+    background-color: black;
+    width: 30%;
+    height: 7px;
+    border-radius: 10px;
+}
+
