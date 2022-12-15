@@ -12,10 +12,25 @@
     <title>Sergei Suglov | CV </title>
 </head>
 <body>
+<header id="header">
+    <nav id="nav">
+        <ul>
+            <li>About me</li>
+            <li>Contacts</li>
+            <li>Languages</li>
+            <li>Skills</li>
+            <li>Education</li>
+            <li>Experience</li>
+            <li>Code</li>
+            <li>Projects</li>
+        </ul>
+    </nav>
+</header>
+
 <div id="main-container">
     <div id="introduction">
         <div id="main-image">
-            <img src="./assets/img/peeps-avatar.png" alt="Avatar Image" width="500">
+            <img src="./assets/img/avatar.jpg" alt="Avatar Image" width="500">
         </div>
         <div id="name">
             Sergei Suglov
@@ -73,32 +88,38 @@
         <h2>Skills</h2>
         <div id="skills-container">
             <div>
+                <p class="progress-label">JavaScript</p>
                 <div class="progressbar" id="progressbar-1">
-                    <p>JavaScript</p>
-                    <div></div>
-                </div>
-                <div class="progressbar" id="progressbar-2">
-                    <p>HTML</p>
-                    <div></div>
-                </div>
-                <div class="progressbar" id="progressbar-3">
-                    <p>CSS</p>
                     <div></div>
                 </div>
             </div>
+            <div>
+                <p class="progress-label">HTML</p>
+                <div class="progressbar" id="progressbar-2">
+                    <div></div>
+                </div>
+            </div>
+            <div>
+                <p class="progress-label">CSS</p>
+                <div class="progressbar" id="progressbar-3">
+                    <div></div>
+                </div>
+            </div>        
         </div>
     </div>
     <hr class="divider">
     <div class="content" id="education">
         <h2>Education</h2>
-        Studied Computing machinery, complexes, systems and networks at Izhevsk State Technical University
-        Finished Frontend Web Development Bootcamp Course (JavaScript, HTML, CSS) by Zach Gollwitzer in freeCodeCamp.org
-        Busy with an online JavaScript/Front-end course right now at RS School
+        <ul>
+            <li>Studied Computing machinery, complexes, systems and networks at Izhevsk State Technical University</li>
+            <li>Finished Frontend Web Development Bootcamp Course (JavaScript, HTML, CSS) by Zach Gollwitzer in freeCodeCamp.org</ll>
+            <li>Busy with an online JavaScript/Front-end course right now at RS School</li>
+        </ul>
     </div>
     <hr class="divider">
     <div class="content" id="experience">
         <h2>Work Experience</h2>
-        Although I have a Master's degree in Computing Machinery, I actually never worked *professionally* in the field.
+        Although I have a Master's degree in Computing Machinery, I actually never worked <i>professionally</i> in the field.
         But I started writing code and solving problems on CodeWars.
     </div>
     <hr class="divider">
@@ -115,12 +136,11 @@
         <h2>Projects</h2>
         First Project: <a href="https://katbertw.github.io/rsschool-cv/cv">CV on GitHub</a>
     </div>
-
-
-    
-
-
-
 </div>
+
+<footer id="footer">
+    
+</footer>
+
 </body>
 </html>

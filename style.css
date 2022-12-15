@@ -26,7 +26,7 @@ a {
 }
 
 #main-container {
-    padding: 10% 7%;
+    padding: 5% 10%;
     display: flex;
     flex-direction: column;
 }
@@ -116,33 +116,57 @@ a {
     max-width: 100%;
 }
 
+
+
+
+
+
+
+
+#skills-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#skills-container > div {
+    display: flex;
+    flex-direction: row;
+}
+
+.progress-label {
+    margin-right: 1em;
+    width: 100px;
+}
+
 .progressbar {
     background-color: grey;
     border-radius: 10px;
-    height: 7px;
+    width: 100%;
+    height: 5px;
     padding: 0px;
-    display: flex;
-    margin-bottom: 20px;
+    margin-top: 8px;
 }
-  
-#progressbar-1 > div {
+
+ 
+ #progressbar-1 > div {
     background-color: black;
     width: 20%;
-    height: 7px;
+    height: 5px;
     border-radius: 10px;
 }
+
 
 #progressbar-2 > div {
     background-color: black;
     width: 35%;
-    height: 7px;
+    height: 5px;
     border-radius: 10px;
 }
 
 #progressbar-3 > div {
     background-color: black;
     width: 30%;
-    height: 7px;
+    height: 5px;
     border-radius: 10px;
 }
 
