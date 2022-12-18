@@ -1,5 +1,5 @@
 ### Name
-Sergey Suglov
+Sergei Suglov
 
 ### Contacts
 katbertw@gmail.com
