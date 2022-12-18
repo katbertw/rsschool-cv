@@ -98,7 +98,7 @@ pre {
 #name {
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
+    border: 2px solid #131313;
     font-size: 0.7rem;
     font-weight: 900;
     letter-spacing: 0.35rem;
@@ -192,7 +192,7 @@ pre {
 
  
  #progressbar-1 > div {
-    background-color: black;
+    background-color: #131313;
     width: 20%;
     height: 4px;
     border-radius: 5px;
@@ -200,23 +200,23 @@ pre {
 
 
 #progressbar-2 > div {
-    background-color: black;
+    background-color: #131313;
     width: 35%;
     height: 4px;
     border-radius: 5px;
 }
 
 #progressbar-3 > div {
-    background-color: black;
+    background-color: #131313;
     width: 30%;
     height: 4px;
     border-radius: 5px;
 }
 
-
 h3 {
     font-size: 1rem;
 }
+
 h3,
 h4 {
     text-transform: uppercase;
@@ -237,9 +237,6 @@ h4 {
     margin-bottom: 0 !important;
 }
 
-
-
-
 /* Hamburger Menu */
 
 #hamburger-menu {
@@ -251,16 +248,16 @@ h4 {
     margin-left: 10px;
     background: linear-gradient(
       to bottom, 
-      black, black 10%, 
+      #131313, #131313 10%, 
       #fffdfa 10%, #fffdfa 40%, 
-      black 40%, black 50%, 
+      #131313 40%, #131313 50%, 
       #fffdfa 50%, #fffdfa 80%, 
-      black 80%, black 90%,
+      #131313 80%, #131313 90%,
       #fffdfa 90%, #fffdfa 100%
     );
 }
 
-#hamburger-menu #sidebar-menu {
+.visually-hidden {
     visibility: hidden;
     position: fixed;
     z-index: 3;
@@ -297,7 +294,7 @@ h4 {
     visibility: hidden;
     transition: opacity .35s, visibility .35s, height .35s;
     overflow: hidden;
-    background: black;
+    background: #131313;
     z-index: 2;
 }
 
@@ -312,7 +309,7 @@ h4 {
 }
 
 #hamburger-menu a {
-    color: black;
+    color: #131313;
     font-size: 1.3rem;
     text-decoration: none;
 }
@@ -349,7 +346,7 @@ h4 {
 }
   
 #main-menu a {
-    color: black;
+    color: #131313;
     font-size: 0.9rem;
     text-decoration: none;
 }
