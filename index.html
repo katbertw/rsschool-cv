@@ -13,27 +13,47 @@
 </head>
 <body>
 <header id="header">
-    <nav id="nav">
+    
+    <nav id="main-menu">
         <ul>
-            <li>About me</li>
-            <li>Contacts</li>
-            <li>Languages</li>
-            <li>Skills</li>
-            <li>Education</li>
-            <li>Experience</li>
-            <li>Code</li>
-            <li>Projects</li>
+            <li><a href="#introduction" class="nav-link">About me</a></li>
+            <li><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li><a href="#languages" class="nav-link">Languages</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#code" class="nav-link">Code</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
         </ul>
     </nav>
+    
+    <input type="checkbox" id="hamburger-input" class="burger-shower" />
+    <label id="hamburger-menu" for="hamburger-input">
+        <nav id="sidebar-menu">
+            <ul>
+                <li><a href="#introduction" class="nav-link">About me</a></li>
+                <li><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li><a href="#languages" class="nav-link">Languages</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#code" class="nav-link">Code</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+            </ul>
+        </nav>
+    </label>
+
+    <div class="overlay"></div>
 </header>
 
+<main>
 <div id="main-container">
     <div id="introduction">
         <div id="main-image">
             <img src="./assets/img/avatar.jpg" alt="Avatar Image" width="500">
         </div>
         <div id="name">
-            Sergei Suglov
+            <h1>Sergei Suglov</h1>
             <div id="specialty">
                 Front-End Developer
             </div>
@@ -42,7 +62,7 @@
     <div class="content" id="info">
         <h2>About me</h2>
         <p>Aspiring front-end developer with great desire to learn and constantly improve. 
-        Quick study, soft-skilled, emotionally intelligent.</p>
+        Quick study, soft-skilled, emotionally intelligent</p>
     </div>
     <hr class="divider">
     <div id="contacts">
@@ -80,7 +100,7 @@
         <h2>Languages</h2>
         <ul>
             <li>Russan: Native</li>
-            <li>English: C1</li>
+            <li id="last">English: C1</li>
         </ul>
     </div>
     <hr class="divider">
@@ -99,7 +119,7 @@
                     <div></div>
                 </div>
             </div>
-            <div>
+            <div id="last">
                 <p class="progress-label">CSS</p>
                 <div class="progressbar" id="progressbar-3">
                     <div></div>
@@ -111,25 +131,39 @@
     <div class="content" id="education">
         <h2>Education</h2>
         <ul>
-            <li>Studied Computing machinery, complexes, systems and networks at Izhevsk State Technical University</li>
-            <li>Finished Frontend Web Development Bootcamp Course (JavaScript, HTML, CSS) by Zach Gollwitzer in freeCodeCamp.org</ll>
-            <li>Busy with an online JavaScript/Front-end course right now at RS School</li>
+            <li>
+                <h3>RS School</h3>
+                <h4>JavaScript/Front-end</h4>
+                <p>Busy with an online course right now</p>
+            </li>
+            <li>
+                <h3>freeCodeCamp.org</h3>
+                <h4>Frontend Web Development Bootcamp</h4>
+                <p>Finished JavaScript, HTML and CSS courses by Zach Gollwitzer</p>
+            </li>
+            <li id="last">
+                <h3>Izhevsk State Technical University</h3>
+                <h4>Computer Science</h4>
+                <p id="last">Studied Computing machinery, complexes, systems and networks</p>
+            </li>
         </ul>
     </div>
     <hr class="divider">
     <div class="content" id="experience">
         <h2>Work Experience</h2>
         Although I have a Master's degree in Computing Machinery, I actually never worked <i>professionally</i> in the field.
-        But I started writing code and solving problems on CodeWars.
+        But I started writing code and solving problems on CodeWars
     </div>
     <hr class="divider">
     <div class="content" id="code">
         <h2>Code</h2>
-        function reverseWords(str) {
-            let strArray = str.split(' ');
-            let newArray = strArray.map((element) => element.split('').reverse().join(''));
-            return newArray.join(' ');
-          }
+        <pre>
+function reverseWords(str) {
+    let strArray = str.split(' ');
+    let newArray = strArray.map((element) => element.split('').reverse().join(''));
+    return newArray.join(' ');
+}
+</pre>  
     </div>
     <hr class="divider">
     <div class="content" id="projects">
@@ -137,9 +171,14 @@
         First Project: <a href="https://katbertw.github.io/rsschool-cv/cv">CV on GitHub</a>
     </div>
 </div>
+</main>
 
-<footer id="footer">
-    
+<footer class="footer">
+    <div>
+        <p><a href="https://github.com/katbertw">GitHub</a></p>
+        <p>2022</p>
+        <a href="https://rs.school/js/"><img src="./assets/img/rs_school_js.svg" alt="rs school logo"></a>
+    </div>
 </footer>
 
 </body>
